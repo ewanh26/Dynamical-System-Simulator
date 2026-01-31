@@ -1,4 +1,4 @@
-# Dynamical Systems Simulator
+# Dynamical System Simulator
 
 This project simulates a dynamical system, given by a set of 1st-order ordinary 
 differential equations, with C++. It generates a .csv file with the data, 
