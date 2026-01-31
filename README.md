@@ -8,11 +8,12 @@ module in my 2nd year of University as a Theoretical Physics and Applied
 Mathematics student. Below are some graphics generated from a simulation
 of a Lorenz system.
 
-<video height=300 alt="An animation of a dynamical system evolving, viewed from different axes" autoplay>
-  <source src="animation.mp4" type="video/mp4">
-  Your browser does not support HTML video.
-</video>
-<img src="3D.png" height=300 alt="An image of a dynamical system plotted in 3D">
+
+
+
+Animation             |  3D Plot
+:-------------------------:|:-------------------------:
+<img src="https://github.com/user-attachments/assets/f9621ec2-0904-4c4a-a264-c80e80a38d37" height=200 alt="animation"> |  <img src="3D.png" height=200 alt="An image of a dynamical system plotted in 3D">
 
 ## How It's Made
 **Languages, Tech and Packages:**
