@@ -1,4 +1,4 @@
-# Dynamical Systems Simulator
+# Dynamical System Simulator
 
 This project simulates a dynamical system, given by a set of 1st-order ordinary 
 differential equations, with C++. It generates a .csv file with the data, 
@@ -32,14 +32,8 @@ In order to simulate this, we can use the Euler method, which simply
 treats $dt$ as a finite and small constant $\Delta t$ rather than infinitecimal;
 thus naturally, the approximation gets better as $\Delta t \to 0^+$.
 So for each of our $n$ dynamical variables $x_i$, $0 \leq i < n$, we can
-approximate the change in $x_i$, $\Delta x_i$, as
-$$
-\Delta x_i = f_i(x_i; t) \Delta t
-$$
-Then, the value of $x_i$ at time $t + \Delta t$ is
-$$
-x_i(t+\Delta t) = x_i(t) + \Delta x_i
-$$
+approximate the change in $x_i$ as $\Delta x_i = f_i(x_i; t) \Delta t$
+Then, the value of $x_i$ at time $t + \Delta t$ is $x_i(t+\Delta t) = x_i(t) + \Delta x_i$
 This process is repeated in each timestep.
 
 **Simulation:** All of the methodology for simulating the system is entirely
